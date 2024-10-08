@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #266926ad;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* This makes the frame rounded */
+    border: 2px solid #006600; /* Optional: adds a green border around the logo */
+}
+
+nav h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+main {
+    flex: 1; /* This ensures the main section takes up the remaining space and pushes the footer to the bottom */
+    padding: 20px;
+}
+
+.intro, .services, .contact {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #266926ad;
+}
+
+.services h3, .contact h3 {
+    font-size: 1.8em;
+    color: #266926ad;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+a {
+    color: #266926ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #266926ad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
