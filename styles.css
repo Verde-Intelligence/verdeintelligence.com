@@ -34,7 +34,7 @@ main {
     padding: 20px;
 }
 
-.intro, .services, .contact {
+.intro, .services, .contact-home {
     margin-bottom: 40px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ main {
     color: #266926ad;
 }
 
-.services h3, .contact h3 {
+.services h3, .contact-home h3 {
     font-size: 1.8em;
     color: #266926ad;
 }
@@ -78,4 +78,20 @@ footer {
     bottom: 0;
     left: 0;
     clear: both;
+}
+
+.company-details {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.contact-home {
+    margin-top: auto;
+    text-align: center;
+}
+
+.contact-contact {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 100px;
 }
